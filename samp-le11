@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a<=b && a<=c)
+    {
+        printf("a greater");
+    }
+    else if (b<=a && b<=c)
+    {
+        printf("b greater");
+    }
+    else if (c<=a && c<=b)
+    {
+        printf("c greater");
+    }
+    else
+    {
+        printf("invalid");
+    }
+    
+    return 0;
+}
