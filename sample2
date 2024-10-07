@@ -1,0 +1,37 @@
+#include<stdio.h>
+int main()
+{
+    int t,e,m,si,ss;
+    int tot, aver;
+    scanf("%d%d%d%d%d",&t,&e,&m,&si,&ss);
+    tot= t+e+m+si+ss;
+    aver=tot/500;
+    if(tot>=450 && tot<=500 )
+    {
+        printf("grade a");
+    }
+    else if (tot>=350 && tot <=451)
+    {
+        printf("grade b");
+    }
+    else if (tot>=250 && tot<=351)
+    {
+        printf("c greater");
+    }
+    else
+    {
+        printf("failed");
+    }
+    if(t>=50&&e>=50&&m>=50&&si>=50&&ss>=50)
+    {
+        printf("cleared exam");
+    }
+    else
+    {
+        printf("not cleared exam");
+    }
+    
+    return 0;
+}
+
+
